@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Card from './common/Card'
 
 export default function ProductListing() {
     const [Data, setData] = useState()
