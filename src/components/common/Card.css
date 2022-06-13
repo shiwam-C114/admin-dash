@@ -1,0 +1,25 @@
+.card-frame{
+    border: black 2px solid;
+    width:max-content;
+    text-align: center;
+    display: flex;
+
+}
+.parent{
+    text-align: center;
+    border: 2px gray solid;
+}
+.info{
+    border: red solid 2px;
+}
+.pic{
+    border: rebeccapurple solid 3px;
+}
+.pic>img{
+    width: 200px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }

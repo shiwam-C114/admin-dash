@@ -7,9 +7,9 @@ function App() {
   return (
     <div>
      <ProductForm />
-     <div className='App'>
+     <br />
+     <hr />
       <ProductListing />
-     </div>
     </div>
   );
 }
