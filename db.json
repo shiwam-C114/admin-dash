@@ -81,10 +81,12 @@
       "image": "https://picsum.photos/200"
     },
     {
+      "title": "ew",
+      "gender": "female",
+      "price": "f",
+      "category": "dsd",
+      "image": "ewd",
       "id": 11
-    },
-    {
-      "id": 12
     }
   ]
 }

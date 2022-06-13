@@ -18,8 +18,12 @@ export default function ProductForm() {
     const {title, gender, price, category, image} = form
 
     function addProduct() {
+        console.log({...form});
         fetch('http://localhost:3000/products',{
             method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+              },
             body: JSON.stringify(form)
         })
         .then(res=>res.json())
