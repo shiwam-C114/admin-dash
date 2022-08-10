@@ -30,6 +30,15 @@ export default function ProductForm() {
         .then(console.log)
     }
 
+    function inputImage() {
+      // console.log("inside");
+      fetch('http://localhost:3000/products').then(res=>res.json()).then(data=>{
+        let item = data[data.length-1].id
+        console.log(item);
+        setForm({...form, "image":`https://picsum.photos/${200+item}`})
+      })
+    }
+
   return (
     <div>
         <h2>Product Form</h2>
@@ -51,6 +60,7 @@ export default function ProductForm() {
         <br />
         <label htmlFor="image">image</label>
         <input value={image} type="text" name="image" onChange={handlechange} />
+        <button onClick={inputImage}>Auto Fill image link</button>
         <br />
         <button onClick={addProduct}>ADD</button>
     </div>

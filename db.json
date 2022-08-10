@@ -14,7 +14,7 @@
       "gender": "female",
       "price": 2198,
       "category": "jacket",
-      "image": "https://picsum.photos/200"
+      "image": "https://picsum.photos/201"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "gender": "male",
       "price": 933,
       "category": "jacket",
-      "image": "https://picsum.photos/200"
+      "image": "https://picsum.photos/202"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "gender": "female",
       "price": 4286,
       "category": "shirt",
-      "image": "https://picsum.photos/200"
+      "image": "https://picsum.photos/203"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "gender": "female",
       "price": 2853,
       "category": "shirt",
-      "image": "https://picsum.photos/200"
+      "image": "https://picsum.photos/204"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "gender": "female",
       "price": 4687,
       "category": "shirt",
-      "image": "https://picsum.photos/200"
+      "image": "https://picsum.photos/205"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "gender": "male",
       "price": 2684,
       "category": "shirt",
-      "image": "https://picsum.photos/200"
+      "image": "https://picsum.photos/206"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "gender": "male",
       "price": 4727,
       "category": "salwar",
-      "image": "https://picsum.photos/200"
+      "image": "https://picsum.photos/207"
     },
     {
       "id": 9,
@@ -70,7 +70,7 @@
       "gender": "male",
       "price": 1243,
       "category": "trouser",
-      "image": "https://picsum.photos/200"
+      "image": "https://picsum.photos/208"
     },
     {
       "id": 10,
@@ -78,15 +78,31 @@
       "gender": "male",
       "price": 1353,
       "category": "jacket",
-      "image": "https://picsum.photos/200"
+      "image": "https://picsum.photos/209"
     },
     {
-      "title": "ew",
-      "gender": "female",
-      "price": "f",
-      "category": "dsd",
-      "image": "ewd",
+      "title": "",
+      "gender": "",
+      "price": "",
+      "category": "",
+      "image": "https://picsum.photos/210",
       "id": 11
+    },
+    {
+      "title": "",
+      "gender": "",
+      "price": "",
+      "category": "",
+      "image": "https://picsum.photos/211",
+      "id": 12
+    },
+    {
+      "title": "",
+      "gender": "",
+      "price": "",
+      "category": "",
+      "image": "https://picsum.photos/212",
+      "id": 13
     }
   ]
 }

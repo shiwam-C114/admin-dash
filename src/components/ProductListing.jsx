@@ -9,7 +9,7 @@ export default function ProductListing() {
         .then(res=>res.json())
         .then(data=>{
             setData(data)
-            setLoading(!Loading)
+            setLoading(false)
             console.log(data)
         }
         )
@@ -18,17 +18,30 @@ export default function ProductListing() {
       paintPage()
     }, [])
     
+    function Sort() {
+      let array = Data
+      // array.sort()
+      console.log("in");
+      console.log(array);
+    }
 
   return (
     <div className='parent'>
         <h2>Product Listing</h2>
         <br />
-        {Loading
-        ?
-        "Loading..." 
-        :
-        Data.map((ele)=>< Card ele={ele} />)
-        }
+        <div className="sort-filter-holder">
+          <label htmlFor="sort" onClick={Sort}>sort</label>
+          <select name="" id="">
+            <option value="" onClick={Sort}>default</option>
+            <option value="" onClick={Sort}>price: high to low</option>
+            <option value="" onClick={()=>{Sort(false)}}>price: low to high</option>
+          </select>
+          
+          <button onClick={()=>{paintPage()}}>Refresh</button>
+        </div>
+        <div className="cardHolder">
+          {Loading ? "Loading..." : Data.map( ele => < Card ele={ele} /> )}
+        </div>
     </div>
   )
 }

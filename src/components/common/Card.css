@@ -1,13 +1,19 @@
 .card-frame{
     border: black 2px solid;
     width:max-content;
-    text-align: center;
+    padding: 10px;
     display: flex;
-
 }
 .parent{
     text-align: center;
-    border: 2px gray solid;
+}
+.cardHolder{
+    display: grid;
+    border: 2px solid salmon;
+    grid-template-columns: repeat(3,1fr);
+}
+.sort-filter-holder{
+    border: 2px seagreen solid;
 }
 .info{
     border: red solid 2px;
